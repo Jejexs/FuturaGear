@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bootstrap Integration</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 z-3 shadow-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">FuturaGear</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -44,7 +47,7 @@
   <div class="background-image pt-5">
     <div class="row justify-content-center py-5 fs-5 ">
 
-      <div class="col-9">
+      <div class="col-9" data-aos="fade" data-aos-offset="167" data-aos-delay="200" data-aos-duration="500">
         <p class="text-center text-white ">Découvrez l'avenir de la technologie.<br>
           Des gadgets innovants à portée de clic.<br>
           Bienvenue chez FuturaGear.<br>
@@ -52,21 +55,21 @@
       </div>
 
       <div class="col-8 d-flex flex-column align-items-center">
-        <img src="/src/img/logo-sansfond.png" class=" col-8 col-md-4" alt="">
-        <button type="button" class="btn border-white text-white col-4 col-md-2 ">Découvrir</button>
+        <img src="/src/img/logo-sansfond.png" class=" col-8 col-md-4" alt="" data-aos="fade" data-aos-offset="167" data-aos-delay="300" data-aos-duration="500">
+        <button type="button" class="btn border-white text-white col-4 col-md-2" data-aos="fade-up" data-aos-offset="167" data-aos-delay="400" data-aos-duration="800">Découvrir</button>
       </div>
 
     </div>
   </div>
 
   <div class="container">
-    <p class="fs-1 pt-4">Qui sommes-nous ?</p>
+    <p class="fs-1 pt-4" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Qui sommes-nous ?</p>
     <div class="row justify-content-center justify-content-md-evenly align-items-center">
       <div class="col-10 col-md-5 py-2 d-flex flex-column align-items-center">
-        <img class="w-100 py-3" src="/src/img/women-armor.png" alt="">
+        <img class="w-100 py-3" src="/src/img/women-armor.png" alt="" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
       </div>
 
-      <div class="col-8 col-md-5  text-center pb-4">
+      <div class="col-8 col-md-5  text-center pb-4" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
         <p class="py-1">Bienvenue chez <strong>FuturaGear</strong> !
           <br><br>
           Plongez dans l'avenir de l'équipement et des <strong>gadgets futuristes</strong>.
@@ -84,30 +87,30 @@
           <br><br>
           Préparez-vous à équiper le futur avec <strong>FuturaGear</strong> !
         </p>
-        <button type="button" class="btn border-dark text-dark">Découvrir</button>
+        <button type="button" class="btn border-dark text-dark" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Découvrir</button>
       </div>
     </div>
   </div>
 
   <div class="container-fluid py-2 bg-dark py-md-5">
     <div class="container">
-      <p class="fs-1 py-3 text-white">Nos gadget</p>
+      <p class="fs-1 py-3 text-white" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Nos gadget</p>
     </div>
 
     <div class="row py-5 text-white justify-content-evenly">
 
       <div class="col col-md-3">
-        <p class="fs-5">PlasmaBlaster</p>
-        <p class="text-center py-md-5">Découvrez la puissance de l'avenir avec le PlasmaBlaster. Le fusil à plasma de pointe qui
+        <p class="fs-5" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">PlasmaBlaster</p>
+        <p class="text-center py-md-5" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Découvrez la puissance de l'avenir avec le PlasmaBlaster. Le fusil à plasma de pointe qui
           repousse les limites de la technologie, conçu pour les aventuriers du futur.</p>
         <div class="d-flex justify-content-center ">
-          <button type="button" class="btn border-white text-white">Voir en boutique</button>
+          <button type="button" class="btn border-white text-white" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Voir en boutique</button>
         </div>
 
       </div>
 
       <div class="col col-md-3">
-        <img class="w-100" src="/src/img/weapon1.png" alt="">
+        <img class="w-100" src="/src/img/weapon1.png" alt="" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
       </div>
 
 
@@ -116,17 +119,17 @@
     <div class="row py-5 text-white justify-content-evenly py-md-5 ">
 
       <div class="col col-md-3">
-        <img class="w-100" src="/src/img/glasses.png" alt="">
+        <img class="w-100" src="/src/img/glasses.png" alt="" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
       </div>
 
       <div class="col col-md-3">
         <div class="d-flex justify-content-end ">
-          <p class="fs-5">SmartVue</p>
+          <p class="fs-5" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">SmartVue</p>
         </div>
-        <p class="text-center py-md-5">Découvrez la réalité augmentée comme jamais auparavant avec les SmartVue. Des lunettes
+        <p class="text-center py-md-5" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Découvrez la réalité augmentée comme jamais auparavant avec les SmartVue. Des lunettes
           intelligentes qui vous ouvrent de nouveaux horizons technologiques.</p>
         <div class="d-flex justify-content-center ">
-          <button type="button" class="btn border-white text-white">Voir en boutique</button>
+          <button type="button" class="btn border-white text-white" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Voir en boutique</button>
         </div>
 
       </div>
@@ -137,16 +140,16 @@
     <div class="row py-5 text-white justify-content-evenly">
 
       <div class="col col-md-3">
-        <p class="fs-5">Gadgetorium</p>
-        <p class="text-center py-md-5">Découvrez le Gadgetorium, l'arsenal ultime de l'Inspecteur Gadget, rempli des gadgets les
+        <p class="fs-5" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Gadgetorium</p>
+        <p class="text-center py-md-5" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Découvrez le Gadgetorium, l'arsenal ultime de l'Inspecteur Gadget, rempli des gadgets les
           plus innovants du monde pour lutter contre le crime avec style.</p>
         <div class="d-flex justify-content-center ">
-          <button type="button" class="btn border-white text-white">Voir en boutique</button>
+          <button type="button" class="btn border-white text-white" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Voir en boutique</button>
         </div>
 
       </div>
 
-      <div class="col col-md-3">
+      <div class="col col-md-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
         <img class="w-100" src="/src/img/inspecteur-gadjet.png" alt="">
       </div>
 
@@ -160,14 +163,14 @@
 
   <div class="container py-md-5 ">
     <div>
-      <p class="fs-1 py-3">Nous contacter</p>
+      <p class="fs-1 py-3" data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Nous contacter</p>
     </div>
     <div class="row">
 
       <div class="col-12 d-flex flex-column justify-content-center align-items-center text-center py-2 col-md-6 ">
-        <p><strong>Communicateur : </strong>555-123-4567</p>
-        <p><strong>Adresse virtuelle : </strong>contact@futuragear.com</p>
-        <p><strong>Coordonnées spatiales : </strong>456 Techno Avenue
+        <p data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500"><strong>Communicateur : </strong>555-123-4567</p>
+        <p data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500"><strong>Adresse virtuelle : </strong>contact@futuragear.com</p>
+        <p data-aos="fade-right" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500"><strong>Coordonnées spatiales : </strong>456 Techno Avenue
           <br>
           Futura City, 54321
           <br>
@@ -175,20 +178,20 @@
       </div>
 
       <div class="col-12 col-md-6 ">
-        <p class="fs-4">Des questions ?</p>
-        <div class="mb-3">
+        <p class="fs-4" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">Des questions ?</p>
+        <div class="mb-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
           <input type="email" class="form-control border-primary" id="exampleFormControlInput1" placeholder="Communicateur">
         </div>
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Adresse virtuelle">
         </div>
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Coordonnées spatiales">
         </div>
-        <div class="mb-3">
+        <div class="mb-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre question" ></textarea>
         </div>
-        <div class="d-flex justify-content-center pb-3">
+        <div class="d-flex justify-content-center pb-3" data-aos="fade-left" data-aos-offset="100" data-aos-delay="200" data-aos-duration="500">
           <button type="button" class="btn btn-dark">Envoyer</button>
         </div>
       </div>
@@ -198,7 +201,7 @@
 
   <footer class="py-3 shadow-lg">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">COnditions générales d’utilisation</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Conditions générales d’utilisation</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Données personnelles et cookies</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mentions legales</a></li>
     </ul>
@@ -209,6 +212,9 @@
 
 
   <script type="module" src="src/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  
 </body>
 
 </html>
@@ -226,3 +232,4 @@
   }
   
 </style>
+
